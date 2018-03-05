@@ -6,16 +6,12 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
-function deviceInfo() {
+function personInfo() {
 
-	info =  'Hi, I am your smartphone :-)' + '\n' +
+	dane =  'Hi' + '\n' +
 			'=====' + '\n' +
 			'Imie    : '     + Slawek     + '\n' + 
-			'Nazwisko : '  + Zdzylowski + '\n' + 
-			'NrIndeksu: ' + 188846 + '\n' + 
-			'Device UUID    : '     + device.uuid     + '\n' + 
-			'Device Model   : '    + device.model     + '\n' + 
-			'Device Version : '  + device.version  + '\n';
+			'Nazwisko : '  + Zdzylowski + '\n' +;
 
 	navigator.notification.alert(info);
 	
