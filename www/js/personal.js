@@ -6,7 +6,7 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
-function personInfo() {
+function personal() {
 
 	dane =  'Hi' + '\n' +
 			'=====' + '\n' +
